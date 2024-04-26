@@ -32,7 +32,7 @@ function Data() {
         <h2>Datos del MPU</h2>
         <p>Aceleración en X: {mpuData['Aceleración en x: ']}</p>
         <p>Aceleración en Y: {mpuData['Aceleración en y: ']}</p>
-        <p>Aceleración en Z: {mpuData['Aceleración en z: ']}</p>
+        <p>Aceleración en Z: {mpuData['Aceleración en z']}</p>
         <p>Inclinación: {mpuData['Inclinacion: ']}</p>
       </div>
       <div className='colum'>
