@@ -1,0 +1,41 @@
+/* Navbar.module.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color:#ffffff;
+    color: white;
+    padding: 0 20px;
+    border-bottom: 2px solid black;
+  }
+  
+  .logoContainer {
+    flex: 1;
+  }
+  
+  .logo {
+    height: 60px; 
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .navItems {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navItem {
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s all;
+  }
+  
+  .navItem:hover {
+    font-size: 17px;
+  }
+  
