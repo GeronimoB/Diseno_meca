@@ -1,0 +1,41 @@
+/* Data.module.css */
+.dataContainer {
+    background-color: #3c3c3c; /* neutralPrimaryAlt */
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* blanco */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  
+  .dataItem {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333333; /* neutralPrimary */
+    color: #ffffff; /* blanco */
+    border-radius: 4px;
+    border-left: 5px solid #a6a6a6; /* neutralTertiary */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dataItem:not(:last-child) {
+    border-bottom: 1px solid #666666; /* neutralSecondary */
+  }
+  
+  .dataTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .dataValue {
+    font-size: 1rem;
+    text-align: right;
+  }
+  .colum{
+    display: flex;
+    flex-direction: column;
+  }
+  

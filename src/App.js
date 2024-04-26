@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SensorChart from './components/SensorChart';
 import Navbar from './components/navbar'
+import Data from './components/Data'
 import { sendCommand } from './components/Firebase';
 import styles from './css/App.module.css';
 
@@ -20,6 +21,7 @@ function App() {
       <input className={styles.input} type="number" value={motor1Value} onChange={(e) => setMotor1Value(parseInt(e.target.value))} />
       <input className={styles.input} type="number" value={motor2Value} onChange={(e) => setMotor2Value(parseInt(e.target.value))} />
       <button className={styles.button} onClick={handleSendCommand}>Enviar Señales</button>
+      <Data/>
     </div>
   );
 }
